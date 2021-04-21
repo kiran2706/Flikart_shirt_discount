@@ -1,0 +1,6 @@
+pandas==1.1.2
+numpy==1.19.2
+streamlit==0.71.0
+pycaret==2.2.3
+Pillow==8.0.1
+datetime
