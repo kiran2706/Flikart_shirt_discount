@@ -7,10 +7,9 @@ model = load_model('flpkrt_shirt_discnt_prediction')
 st.markdown(
     """
 <style>
-.sidebar. sidebar-content 
-
+.sidebar .sidebar-content 
 {
-    background-image: linear-gradient(lightyellow,blue);
+    background-image: linear-gradient(lightblue,orange);
     color: white;
 }
 </style>
