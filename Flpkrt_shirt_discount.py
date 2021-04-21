@@ -13,12 +13,12 @@ st.markdown(
     color: white;
 }
 </style>
-""",'h1{color: Blue;}</style>',unsafe_allow_html=True,
+""",unsafe_allow_html=True,
 )
 
 st.markdown('<style>body{background-color: lightyellow;}</style>',unsafe_allow_html=True)
 
-# st.markdown('<style>h1{color: Blue;}</style>', unsafe_allow_html=True)
+st.markdown('<style>h1{color: green;}</style>', unsafe_allow_html=True)
 
 
 
