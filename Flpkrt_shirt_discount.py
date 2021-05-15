@@ -4,7 +4,21 @@ import pandas as pd
 import datetime
 model = load_model('flpkrt_shirt_discnt_prediction')
 
-st.markdown('<style>body{background-color: yellow;}</style>',unsafe_allow_html=True)
+st.markdown(
+    """
+<style>
+.sidebar .sidebar-content 
+{
+    background-image: linear-gradient(lightblue,lightyellow);
+    color: white;
+}
+</style>
+""",unsafe_allow_html=True,
+)
+
+st.markdown('<style>body{background-color: lightyellow;}</style>',unsafe_allow_html=True)
+
+st.markdown('<style>h1{color: green;}</style>', unsafe_allow_html=True)
 
 
 
